@@ -7,47 +7,67 @@
     <title>Звіт</title>
 </head>
 <body>
-    <div><img src="img/me2.png" alt="Персональне фото"></div>
-    <h1>Щеголь Анастасія Андріївна</h1>
-    <h2>Звіт з дисципліни "Web-технології та web-дизайн"</h2>
-    <hr>
-    <h3>Про мене </h3>
-    <p>Я все легко запам'ятовую, але згадати після не можу; З роками я роблю все менше помилок, але їх якість, безсумнівно, зростає;
-        Існую щасливою за замовчуванням, будь ласка, не чіпайте налаштування. </p>
-    <hr>
-    <h3>Домашні завдання </h3>
-    <ol>
-        <li><a href ="img/VSCode.jpg"> Налаштування Visual Studio Code </a></li>
-        <li><a href ="https://docs.google.com/document/d/1BTeYg68yNmhqLrOAD3D2IoTl-DwonyKczWLjFcewThw/edit?usp=sharing"> Основні команди Git </a></li>
-        <li>Створення найпростіших онлайн сторінок: </li>
-        <ul>
-            <li><a href ="01/task1.html"> Завдання 1. Маленький принц </a>
-                <a href ="https://github.com/Anastasiie/web-lessons/blob/main/01/task1.html"><img src="img/icons_html.png" alt="Html"></a>
-                </li>
-            <li><a href ="01/task2.html"> Завдання 2. Звіт з практики </a>
-                <a href ="https://github.com/Anastasiie/web-lessons/blob/main/01/task2.html"><img src="img/icons_html.png" alt="Html"></a>
-            </li>
-            
-            <li><a href ="01/task3.html"> Завдання 3. Так ніхто не кохав ...</a> 
-                <a href ="https://github.com/Anastasiie/web-lessons/blob/main/01/task3.html"><img src="img/icons_html.png" alt="Html"></a>
-            </li>
-        </ul>
-    </ol>
-    <hr> 
-    <h3>Лабораторні роботи </h3>
-    <ol>
-        <li><a href ="https://www.figma.com/file/gveTzr8TO0Zf8PnMijjWDH/Project?node-id=1%3A2"> Лабораторна робота №1. Робота з дизайн-макетом </a></li>
-    </ol>
-    <hr>
-    <h3>Контакти </h3>
-    <div><img src="img/icons_telephone.png" alt="Іконка виклику">
-        <a href="tel:+380961538725">+38 (096) 153-87-25</a>
-    </div>
-    <div><img src="img/icons_mail.png" alt="Іконка пошти">
-        <a href="mailto:shchegol.anastasiia@kmrf.kiev.ua">shchegol.anastasiia@kmrf.kiev.ua </a>
-    </div>
-    <div><img src="img/icons_github.png" alt="Іконка GitHub">
-        <a href ="https://github.com/Anastasiie/web-lessons.git"> Мій репозиторій на GitHub </a>
-    </div>
+    <!-- Шапка сайту -->
+    <header>
+        <img src="img/me2.png" alt="Персональне фото">
+        <h1>Щеголь Анастасія Андріївна</h1>
+        <h2>Звіт з дисципліни "Web-технології та web-дизайн"</h2>
+        <hr>
+    </header>
+    <!-- Блок про мене -->
+    <main>
+        <div>
+            <h3>Про мене </h3>
+            <p>Я все легко запам'ятовую, але згадати після не можу; З роками я роблю все менше помилок, але їх якість, безсумнівно, зростає;
+                Існую щасливою за замовчуванням, будь ласка, не чіпайте налаштування. </p>
+            <hr>
+        </div>
+        <!-- Домашні -->
+        <div>
+            <h3>Домашні завдання </h3>
+            <ol>
+                <li><a href ="img/VSCode.jpg"> Налаштування Visual Studio Code </a></li>
+                <li><a href ="https://docs.google.com/document/d/1BTeYg68yNmhqLrOAD3D2IoTl-DwonyKczWLjFcewThw/edit?usp=sharing"> Основні команди Git </a></li>
+                <li>Створення найпростіших онлайн сторінок: </li>
+                <ul>
+                    <li><a href ="01/task1.html"> Завдання 1. Маленький принц </a>
+                        <a href ="https://github.com/Anastasiie/web-lessons/blob/main/01/task1.html"><img src="img/icons_html.png" alt="Html"></a>
+                        </li>
+                    <li><a href ="01/task2.html"> Завдання 2. Звіт з практики </a>
+                        <a href ="https://github.com/Anastasiie/web-lessons/blob/main/01/task2.html"><img src="img/icons_html.png" alt="Html"></a>
+                    </li>
+                    
+                    <li><a href ="01/task3.html"> Завдання 3. Так ніхто не кохав ...</a> 
+                        <a href ="https://github.com/Anastasiie/web-lessons/blob/main/01/task3.html"><img src="img/icons_html.png" alt="Html"></a>
+                    </li>
+                </ul>
+            </ol>
+            <hr> 
+        </div>
+        <!-- Лабораторні -->
+        <div>
+            <h3>Лабораторні роботи </h3>
+            <ol>
+                <li><a href ="https://www.figma.com/file/gveTzr8TO0Zf8PnMijjWDH/Project?node-id=1%3A2"> Лабораторна робота №1. Робота з дизайн-макетом </a></li>
+                <li><a href ="02/index.html"> Лабораторна робота №2. Семантичні теги HTML </a></li>
+            </ol>
+            <hr>
+        </div>
+    </main>
+    <!-- Підвал -->
+    <footer>
+        <address>
+            <h3>Контакти </h3>
+            <div><img src="img/icons_telephone.png" alt="Іконка виклику">
+                <a href="tel:+380961538725">+38 (096) 153-87-25</a>
+            </div>
+            <div><img src="img/icons_mail.png" alt="Іконка пошти">
+                <a href="mailto:shchegol.anastasiia@kmrf.kiev.ua">shchegol.anastasiia@kmrf.kiev.ua </a>
+            </div>
+            <div><img src="img/icons_github.png" alt="Іконка GitHub">
+                <a href ="https://github.com/Anastasiie/web-lessons.git"> Мій репозиторій на GitHub </a>
+            </div>
+        </address>
+    </footer>
 </body>
 </html>

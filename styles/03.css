@@ -110,3 +110,16 @@ pre, div{
 .inherit{
     text-transform: inherit;
 }
+/* text-decoration */
+.text_decoration_color{
+    text-decoration-color: rgb(251, 255, 0);
+}
+.text-decoration-line{
+    text-decoration-line: line-through;
+}
+.text-decoration-style{
+    text-decoration-style:dotted;
+}
+.text-decoration-thickness{
+    text-decoration-thickness:inherit;
+}

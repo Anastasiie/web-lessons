@@ -217,10 +217,42 @@
         <h2>Властивість text-decoration</h2>
         <p>Властивість <span class="red">text-decoration</span> задає вигляд декоративних рядків на тексті.</p>
         <ul>
-            <li><span class="red">capitalize</span>- </li>
-            li><span class="red">text-decoration-color</span>- </li>
-        text-decoration-line
-        text-decoration-style
-        text-decoration-thickness
+            <li><span class="red">text-decoration-color</span>- встановлює колір декорацій, доданих до тексту за допомогою текстового оформлення-рядка.</li>
+            <li><span class="red">text-decoration-line</span>- встановлює тип декорування, який використовується на тексті в елементі, наприклад, підкреслення або надмірне виділ.</li>
+            <li><span class="red">text-decoration-style</span>- встановлює стиль рядків, визначених рядком текстового оформлення.</li>
+            <li><span class="red">text-decoration-thickness</span>-  встановлює товщину обведення лінії декорування, яка використовується на тексті в елементі, наприклад, на лінії, підкреслення або надрядковому.</li>
+        </ul>
+        <h3>Синтаксис:</h3>
+        <p><span class="css">Css</span></p>
+        <pre><code> 
+        .text-decoration-color{
+            text-decoration-color: lavender;
+        }
+        .text-decoration-line{
+            text-decoration-line: line-through;
+        }
+        .text-decoration-style{
+            text-decoration-style: dashed;
+        }
+        .text-decoration-thickness{
+            text-decoration-thickness:inherit;
+        }
+        </code></pre>
+        <p><span class="html">Html</span></p>
+      <code><pre>
+          &lt;p&gt;&lt;span class="text-decoration-color"&gt;This is an example.&lt;/span&gt;&lt;/p&gt;
+          &lt;p&gt;&lt;span class="text-decoration-line"&gt;This is an example.&lt;/span&gt;&lt;/p&gt;
+          &lt;p&gt;&lt;span class="text-decoration-style"&gt;This is an example.&lt;/span&gt;&lt;/p&gt;
+          &lt;p&gt;&lt;span class="text-decoration-thickness"&gt;This is an example.&lt;/span&gt;&lt;/p&gt;
+      </code></pre>
+      <h3>Результат:</h3>
+    <div>   
+        <code>
+            <p><span class="text_decoration_color">This is an example.</span></p>
+            <p><span class="text-decoration-line">This is an example.</span></p>
+            <p><span class="text-decoration-style">This is an example.</span></p>
+            <p><span class="text-decoration-thickness">This is an example.</span></p>
+        </code>
+    </div> 
 </body>
 </html>

@@ -11,7 +11,17 @@
 </head>
 <body>
     <h1>Основні властивості css для роботи з текстом</h1>
-    <h2>Властивість font-size</h2>
+    <nav>
+        |<a href="#f1">Властивість font-size</a>|  <!-- якір-->
+        <a href="#f2">Властивість font-weight</a>| 
+        <a href="#f3">Властивість font-style</a>| 
+        <a href="#f4">Властивість font-family</a>| 
+        <a href="#f5">Тип color</a>| 
+        <a href="#f6">Властивість text-transform</a>| 
+        <a href="#f7">Властивість text-decoration</a>|  
+    </nav>
+
+    <h2 id="f1">Властивість font-size</h2>
     <p>Властивість <span class="red">font-size</span> змінює розмір шрифта.</p>
     <p>Розмір шрифту задається за допомогою значення та одиниць виміру (<span class="red">em, px, pt, %</span>)</p>
     <h3>Синтаксис:</h3>
@@ -23,7 +33,8 @@
     <pre><code>&lt;p&gt; Hello, world! &lt;/p&gt;</code></pre>
     <h3>Результат:</h3>
     <p><div><code>Hello, world!</code></div></p>
-    <h2>Властивість font-weight</h2>
+
+    <h2 id="f2">Властивість font-weight</h2>
     <p>Властивість <span class="red">font-weight</span> встановлює насиченість шрифту.</p>
     <p>Може приймати наступні значення:</p>
     <ul>
@@ -60,7 +71,8 @@
             </p>
         </code>
     </div> 
-    <h2>Властивість font-style</h2>
+
+    <h2 id="f3">Властивість font-style</h2>
     <p>Властивість <span class="red">font-style</span> визначає яким чином шрифт повинен бути стилізований.</p>
     <p>Може приймати наступні значення:</p>
     <ul>
@@ -82,9 +94,9 @@
     </code></pre>
     <p><span class="html">Html</span></p>
     <code><pre>
-        &lt;p&gt;&lt;span class="normal"&gt;Напівжирний текст, &lt;/span&gt;&lt;/p&gt;
-        &lt;p&gt;&lt;span class="italic"&gt;Найтонший текст, &lt;/span&gt;&lt;/p&gt;
-        &lt;p&gt;&lt;span class="oblique"&gt;Найтовщий текст.&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span class="normal"&gt;Цей параграф нормальний. &lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span class="italic"&gt;Цей параграф виділено курсивом.&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span class="oblique"&gt;Цей параграф є косим.&lt;/span&gt;&lt;/p&gt;
     </code></pre>
     <h3>Результат:</h3>
     <div>   
@@ -95,7 +107,8 @@
             
         </code>
     </div> 
-    <h2>Властивість font-family</h2>
+
+    <h2 id="f4">Властивість font-family</h2>
     <p>Властивість <span class="red">font-family</span> визначає пріоритетний список із назв сімейства шрифтів та загальне ім'я шрифту для вибраного елемента. </p>
     <p>Може приймати наступні значення:</p>
     <ul>
@@ -153,7 +166,8 @@
             <p><span class="fantasy">This is an example of a fantasy font.</span></p>
         </code>
     </div> 
-    <h2>Тип color</h2>
+
+    <h2 id="f5">Тип color</h2>
     <p>Тип <span class="red">color</span> визначає колір у спектрі кольорів sRGB. </p>
     <img src="https://goldbusinessnet.com/wp-content/uploads/2012/10/znacheniia-tcveta.png" alt="спектр кольорів">
     <h3>Синтаксис:</h3>
@@ -169,7 +183,8 @@
             <p><span class="color_p">This is an example of a color.</span></p>
         </code>
     </div>
-    <h2>Властивість text-transform</h2>
+
+    <h2 id="f6">Властивість text-transform</h2>
     <p>Властивість <span class="red">text-transform</span> керує перетворенням тексту елемента у великі символи. Коли значення відрізняється від none, регістр вихідного тексту буде змінено.</p>
         <p>Може приймати наступні значення:</p>
         <ul>
@@ -214,7 +229,8 @@
             <p><span class="inherit">This is an example for inherit.</span></p>
         </code>
     </div> 
-        <h2>Властивість text-decoration</h2>
+
+        <h2 id="f7">Властивість text-decoration</h2>
         <p>Властивість <span class="red">text-decoration</span> задає вигляд декоративних рядків на тексті.</p>
         <ul>
             <li><span class="red">text-decoration-color</span>- встановлює колір декорацій, доданих до тексту за допомогою текстового оформлення-рядка.</li>

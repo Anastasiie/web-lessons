@@ -170,7 +170,7 @@
         </code>
     </div>
     <h2>Властивість text-transform</h2>
-    <p>Властивість <span class="red">text-transform</span> керує перетворенням тексту елемента у великі символи. Коли значення відрізняється від none, регістр вихідного тексту буде змінено.
+    <p>Властивість <span class="red">text-transform</span> керує перетворенням тексту елемента у великі символи. Коли значення відрізняється від none, регістр вихідного тексту буде змінено.</p>
         <p>Може приймати наступні значення:</p>
         <ul>
             <li><span class="red">capitalize</span>- Перший символ кожного слова в реченні буде великим. Інші символи свого вигляду не змінюють.</li>
@@ -179,8 +179,48 @@
             <li><span class="red">none</span>- Не змінює регістр символів.</li>
             <li><span class="red">inherit</span>- Наслідує значення батька. </li>
         </ul>  
-
+        <h3>Синтаксис:</h3>
+        <p><span class="css">Css</span></p>
+        <pre><code>       .capitalize{
+            text-transform: capitalize;
+      }
+        .lowercase{
+          text-transform: lowercase;
+      }
+      .uppercase{
+          text-transform: uppercase;
+      }
+      .none{
+          text-transform: none;
+      }
+      .inherit{
+          text-transform: inherit;
+      } </code></pre>
+      <p><span class="html">Html</span></p>
+      <code><pre>
+          &lt;p&gt;&lt;span class="capitalize"&gt;This is an example. Example for capitalize.&lt;/span&gt;&lt;/p&gt;
+          &lt;p&gt;&lt;span class="lowercase"&gt;This is an example for lowercase.&lt;/span&gt;&lt;/p&gt;
+          &lt;p&gt;&lt;span class="uppercase"&gt;This is an example for uppercase.&lt;/span&gt;&lt;/p&gt;
+          &lt;p&gt;&lt;span class="none"&gt;This is an example for none.&lt;/span&gt;&lt;/p&gt;
+          &lt;p&gt;&lt;span class="inherit"&gt;This is an example for inherit.&lt;/span&gt;&lt;/p&gt;
+      </code></pre>
+      <h3>Результат:</h3>
+    <div>   
+        <code>
+            <p><span class="capitalize">This is an example. Example for capitalize.</span></p>
+            <p><span class="lowercase">This is an example for lowercase.</span></p>
+            <p><span class="uppercase">This is an example for uppercase.</span></p>
+            <p><span class="none">This is an example for none.</span></p>
+            <p><span class="inherit">This is an example for inherit.</span></p>
+        </code>
+    </div> 
         <h2>Властивість text-decoration</h2>
-
+        <p>Властивість <span class="red">text-decoration</span> задає вигляд декоративних рядків на тексті.</p>
+        <ul>
+            <li><span class="red">capitalize</span>- </li>
+            li><span class="red">text-decoration-color</span>- </li>
+        text-decoration-line
+        text-decoration-style
+        text-decoration-thickness
 </body>
 </html>

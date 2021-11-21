@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap%27');
+*{
+    font-family: Roboto, serif;
+}
+h1{
+color: #000;
+font-size: 22px;
+text-transform: uppercase;
+font-weight: bold;
+}
+h2{
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+p{
+    color: #666;
+    font-size: 14px;
+}
+.red{
+    color:#c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
+h3{
+    color: #000;
+    font-weight: bold;
+}
+.css, .html{
+    color: #666;
+    font-size: 14px;
+    font-style: italic;
+    font-weight:600;
+    text-transform: uppercase;
+}
+code{
+    color: #666;
+    font-size: 12px;
+}
+pre, div{
+    width: 600px;
+    padding: 10px;
+    background-color:lightgray;
+    border-radius: 5px;
+}
+
+/* насиченість шрифтів */
+
+.bold{
+    font-weight: bold;
+}
+.thin{
+    font-weight: 100;
+}
+.max{
+    font-weight: 900;
+}
+
+/* стилі шрифтів */
+
+.normal {
+    font-style: normal;
+}
+.italic {
+    font-style: italic;
+}
+.oblique {
+    font-style: oblique;
+}
+
+/* сімейство шрифтів */
+
+.serif {
+    font-family: Times, Times New Roman, Georgia, serif;
+  }
+  
+  .sansserif {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+  }
+  
+  .monospace {
+    font-family: Lucida Console, Courier, monospace;
+  }
+  
+  .cursive {
+    font-family: cursive;
+  }
+  
+  .fantasy {
+    font-family: fantasy;
+  }
+
+  /* колір */

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/03.css">
+    <!--Сюди пишемо всі стилі-->
+
+</head>
+<body>
+    <h1>Основні властивості css для роботи з текстом</h1>
+    <h2>Властивість font-size</h2>
+    <p>Властивість <span class="red">font-size</span> змінює розмір шрифта.</p>
+    <p>Розмір шрифту задається за допомогою значення та одиниць виміру (<span class="red">em, px, pt, %</span>)</p>
+    <h3>Синтаксис:</h3>
+    <p><span class="css">Css</span></p>
+    <pre><code>p{
+        font-size: 20px;
+    }</code></pre>
+    <p><span class="html">Html</span></p>
+    <pre><code>&lt;p&gt; Hello, world! &lt;/p&gt;</code></pre>
+    <h3>Результат:</h3>
+    <p><div><code>Hello, world!</code></div></p>
+    <h2>Властивість font-weight</h2>
+    <p>Властивість <span class="red">font-weight</span> встановлює насиченість шрифту.</p>
+    <p>Може приймати наступні значення:</p>
+    <ul>
+        <li><span class="red">normal </span>- нормальна насиченість, те саме, що і <span class="red">400 </span></li>
+        <li><span class="red">bold </span>- напівжирний текст, те саме, що і <span class="red">700 </span></li>
+        <li><span class="red">lighter </span>- змінює насиченість відносно батківського стилю в меншу сторону</li>
+        <li><span class="red">bolder </span>- змінює насиченість відносно батківського стилю в більшу сторону</li>
+        <li><span class="red">100, 200, 300, 400, 500, 600, 700, 800, 900 </span>- цифрові значення насиченості, які відрізняються від стандартних</li>
+    </ul>
+    <h3>Синтаксис:</h3>
+    <p><span class="css">Css</span></p>
+    <pre><code>.bold{
+        font-weight: bold;
+    }
+    .thin{
+        font-weight: 100;
+    }
+    .max{
+        font-weight: 900;
+    }</code> </pre>
+    <p><span class="html">Html</span></p>
+    <pre><code>     &lt;p&gt;
+            &lt;span class="bold"&gt;Напівжирний текст, &lt;/span&gt;
+            &lt;span class="thin"&gt;Найтонший текст, &lt;/span&gt;
+            &lt;span class="max"&gt;Найтовщий текст.&lt;/span&gt;
+    &lt;/p&gt;</code></pre>
+    <h3>Результат:</h3>
+    <div>   
+        <code>
+            <p>
+                <span class="bold">Напівжирний текст, </span>
+                <span class="thin">Найтонший текст, </span>
+                <span class="max">Найтовщий текст.</span>
+            </p>
+        </code>
+    </div> 
+    <h2>Властивість font-style</h2>
+    <p>Властивість <span class="red">font-style</span> визначає яким чином шрифт повинен бути стилізований.</p>
+    <p>Може приймати наступні значення:</p>
+    <ul>
+        <li><span class="red">normal </span>- нормальна версія звичайного шрифту</span></li>
+        <li><span class="red">italic </span>- курсивна версія шрифту  </span></li>
+        <li><span class="red">oblique </span>- похила версія регулярного шрифту </li>
+    </ul>
+    <h3>Синтаксис:</h3>
+    <p><span class="css">Css</span></p>
+    <pre><code>     .normal {
+            font-style: normal;
+    }
+    .italic {
+            font-style: italic;
+    }
+    .oblique {
+            font-style: oblique;
+    }
+    </code></pre>
+    <p><span class="html">Html</span></p>
+    <code><pre>
+        &lt;p&gt;&lt;span class="normal"&gt;Напівжирний текст, &lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span class="italic"&gt;Найтонший текст, &lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span class="oblique"&gt;Найтовщий текст.&lt;/span&gt;&lt;/p&gt;
+    </code></pre>
+    <h3>Результат:</h3>
+    <div>   
+        <code>
+            <p><span class="normal">Цей параграф нормальний.</span></p>
+            <p><span class="italic">Цей параграф виділено курсивом. </span></p>
+            <p><span class="oblique">Цей параграф є косим.</span></p>
+            
+        </code>
+    </div> 
+    <h2>Властивість font-family</h2>
+    <p>Властивість <span class="red">font-family</span> визначає пріоритетний список із назв сімейства шрифтів та загальне ім'я шрифту для вибраного елемента. </p>
+    <p>Може приймати наступні значення:</p>
+    <ul>
+        <li><span class="red">serif </span>- Гліфи мають завершальні штрихи, що розширюються або звужуються кінці, або мають фактично зазубрені закінчення.</span></li>
+        <li><span class="red">sansserif </span>- Гліфи мають гладкі закінчення.</span></li>
+        <li><span class="red">monospace </span>- Усі гліфи мають однакову фіксовану ширину.</li>
+        <li><span class="red">cursive </span>- Гліфи в курсивних шрифтах зазвичай мають або сполучні штрихи, або інші рукописні характеристики.</li>
+        <li><span class="red">fantasy </span>- Фентезійні шрифти - це насамперед декоративні шрифти, які містять грайливу виставу персонажів.</li>
+        <li><span class="red">emoji </span>- Шрифти спеціально призначені для відображення емодзі.</li>
+        <li><span class="red">math </span>- Це сімейство призначене для особливих стилістичних завдань уявлення математики: верхній індекс та нижній індекс, дужки, ...</li>
+        <li><span class="red">fangsong </span>- Особливий стиль китайських ієрогліфів, цей стиль часто використовується для урядових документів.</li>
+    </ul>
+    <h3>Синтаксис:</h3>
+    <p><span class="css">Css</span></p>
+    <pre><code>     .serif {
+        font-family: Times, Times New Roman, Georgia, serif;
+    }
+    .sansserif {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+    }
+    .monospace {
+        font-family: Lucida Console, Courier, monospace;
+    }
+    .cursive {
+        font-family: cursive;
+    }
+    .fantasy {
+        font-family: fantasy;
+    }
+    .emoji {
+        font-family: emoji;
+    }
+    .math {
+        font-family: math;
+    } 
+    .fangsong {
+        font-family: fangsong;
+    }
+    </code></pre>
+    <p><span class="html">Html</span></p>
+    <code><pre>
+        &lt;p&gt;&lt;span class="serif"&gt;This is an example of a serif font.&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span class="sansserif"&gt;This is an example of a sans-serif font.&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span class="monospace"&gt;This is an example of a monospace font.&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span class="cursive"&gt;This is an example of a cursive font.&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span class="fantasy"&gt;This is an example of a fantasy font.&lt;/span&gt;&lt;/p&gt;
+    </code></pre>
+    <h3>Результат:</h3>
+    <div>   
+        <code>
+            <p><span class="serif">This is an example of a serif font.</span></p>
+            <p><span class="sansserif">This is an example of a sans-serif font.</span></p>
+            <p><span class="monospace">This is an example of a monospace font.</span></p>
+            <p><span class="cursive">This is an example of a cursive font.</span></p>
+            <p><span class="fantasy">This is an example of a fantasy font.</span></p>
+        </code>
+    </div> 
+    <h2>Властивість color</h2>
+
+    <h2>Властивість text-transform</h2>
+
+    <h2>Властивість text-decoration</h2>
+
+</body>
+</html>

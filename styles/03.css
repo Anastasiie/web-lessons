@@ -4,9 +4,9 @@
 }
 a{
     background-color:rgb(209, 209, 209);
+    text-decoration: none;
     border-radius: 5px;
     color:#29a38f;
-    text-decoration: none
 }
 a:hover{
     color:#235c23;

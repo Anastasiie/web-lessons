@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,500&display=swap');
+/* task 3  */ 
+*{
+    font-family: Roboto, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: 200px;
+}
+h1{
+    Width: 733px;
+    Height: 70px;
+    color:rgba(17, 38, 78, 1);
+    font-size: 60px;
+   
+    text-align: center;
+    display: inline-block;
+    vertical-align: center;
+    
+}
+
+nav{
+    width: 1200px;
+   height: 50px;
+   background:#11264E;
+   margin: 0px 120px 0px 120px;
+   text-align:center;
+}
+main,header{
+   background:#F4F4F4;
+   width: 1200px;
+   margin: 0px 120px 0px 120px; 
+}
+main{
+    height: 773px;
+}
+h2{
+   margin: 0;
+   padding: 30px 517px 30px 65px ;
+   font-size: 700px;
+   font-size: 36px;
+   line-height: 42px;
+   background-color:white;
+}
+
+.text{
+    
+    color:rgba(53, 52, 52, 1);
+    display: inline-block;
+    font-size: 18px;
+    Width: 915px;
+    Height: 374px;
+    width: auto;
+    box-sizing: 30px 42px 30px 42px;
+    margin: 20px 31px 12px 34px;
+    line-height: 24px;
+    text-align: justify;
+    vertical-align: center;
+    padding: 10px;
+}
+p{
+    text-indent: 1.5em;
+    padding: 5px;
+    margin-bottom: 0
+}
+.logo{
+    Width: 250px;
+    Height: 170px;
+    margin:  15px 6px 15px 110px; 
+    padding-left : 5px;
+    text-align: center;
+}
+ul{
+    box-sizing: border-box;
+    list-style-type:none;  
+}
+li{
+    Width: 242px;
+    Height: 50px;
+    display: inline-block;
+    padding: 5px;
+    font-size: 24px;
+    
+}
+a{ 
+    display: block;
+    margin: auto;
+    margin-right: 17px;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline 2px rgb(255, 255, 255);
+}
+.img{
+    display: inline-block;
+    Width:280px;
+    Height:210px;
+    margin-left: 38px;
+    padding: 142px 38px 30px 42 px;
+}
+.gen-div{
+    background-color:white;
+    margin: 0px 100px 0px 100px;
+}

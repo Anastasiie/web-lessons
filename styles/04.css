@@ -1,0 +1,67 @@
+div{
+    width: 400px;
+    height: 40px;
+    margin: 15px;
+}
+
+/* Task 1*/
+.one{
+    border-width: 5 5 5px;
+    border-left:double 3px;
+    border-right:solid blue 9px;
+    border-top: dotted green 9px;
+    border-bottom:dashed red 3px;
+    padding: 7px;
+}
+.two{
+    text-align-last: center;
+    border-bottom:inset red 2px ;
+    padding: 5px;
+}
+.three{
+    background-color: rgb(194, 232, 247);
+    border-left: solid rgb(0, 153, 255) 7px;
+    padding: 9px;
+}
+.four{
+    border-radius: 10px;
+    box-shadow: lightgrey 9px 4px 4px; 
+    display: -moz-inline-box;
+    border: solid lightgray 1px;
+    padding: 10px;
+}
+.four:hover{
+    color: white;
+    background-color: rgb(76, 186, 255);
+}
+
+/* Task 2*/
+.border{
+    display: -moz-inline-box;
+    border: solid lightgray 1px;
+    border-radius: 15px;
+    height:max-content;
+}
+.circle{
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+    background:lightgray;
+    border-radius: 50px;
+    text-align: center;
+    /*padding: 5px;
+    line-height: 30px; */  
+    display: table-cell;
+    margin:  0 auto;
+}
+.text{
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+    border: solid lightgray 1px;
+    padding: 10px;  
+}
+.paragraph1, paragraph{
+    background: linear-gradient(gray, white);
+    display: -moz-inline-box;
+}

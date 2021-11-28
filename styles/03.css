@@ -2,6 +2,9 @@
 *{
     font-family: Roboto, sans-serif;
 }
+body{
+    color:#F4F4F4;
+}
 a{
     background-color:rgb(209, 209, 209);
     text-decoration: none;

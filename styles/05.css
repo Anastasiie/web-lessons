@@ -15,12 +15,14 @@ nav, aside{
 header{
     
     background-color: #32425C;
-    
+    justify-content:center;
 }
-nav {display: flex;
+nav {
+    display: flex;
     flex-direction: row;
     align-self: center;
     justify-content: space-around;
+    
     width: 1000px;
     height:55px;
     

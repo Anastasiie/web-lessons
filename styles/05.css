@@ -18,38 +18,43 @@ header {
     flex-direction: row;
     justify-content: center;
     background-color: #32425C;
-    justify-content: space-between;
+    justify-content: space-around;
     width: auto;
     height:55px;
-    
+    margin: 0 -5px;
   }
 .logo{
     display: block;
-    justify-content: end;
+    justify-content:flex-end;
     height: 40px;
     width: 40px;
-    margin: 5px;
+    margin: 0 px;
     padding: 5px;
+}
+div{
+    display: flex;
 }
 p{
     display: block;
+    justify-content:flex-start;
     width: auto;
     height: auto;
     background-color: #47556D;
     font-family: Roboto, sans-serif;
     color: white;
     text-align: center;
-    flex-wrap:wrap;
-   /* flex: 1 1 auto;
-    margin: 0 5px;*/
+    
+   /* flex: 1 1 auto;*/
+   margin: 0 5px;
     margin: 10px;
     padding: 7px;
 }
-/*p.great{
+p.great{
     height: 20px;
-}*/
+}/**/
 .great{
-    margin: 1px;
+    vertical-align: top;
+    margin: 0px;
     padding: 1px;
     background-color:#32425C;
     justify-self:flex-start;
@@ -59,12 +64,17 @@ p{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   
 }
+p.Keksby{flex-wrap:wrap;
+    height: 20px;
+}
 .Keksby{
+    flex-direction:column;
     margin: 0px;
-    padding: 0px;
+    padding: 1px;
+    height: 32px;
     background-color:#32425C;
     text-transform: uppercase;
-    font-size: 17px;
+    font-size: 22px;
     font-family:cursive;
     font-weight: bolder;
     align-items: flex-start;

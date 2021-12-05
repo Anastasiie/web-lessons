@@ -1,14 +1,41 @@
 main{
     background: #F7F7F7;
     display: flex;
+    flex-direction:row;
+    align-self: center;
+    margin: 10px;
+    width: 850px;
+    height: auto;
+}
+div{
+    display: flex;
     flex-direction:column;
+    align-self:auto;
+    margin-right: 5px;
 }
 h2{
     margin: 7px;
     padding: 1px;}
 p{
+    margin: 1px;
+    font-size: 20px;
     margin: 7px;
     padding: 1px;
-    width: 1000px;
+    width: 710px;
     height: auto;
+}
+.img{
+    height:68px; 
+    width:68px;
+    margin-top: x;
+    margin: 20p 9px 9px 9px;
+    margin-bottom: 10px;
+}
+.line{
+    border-left: 1px solid rgb(0, 0, 0);
+    height: auto;
+}
+.space{
+    margin: 10px;
+    align-items:flex-end;
 }

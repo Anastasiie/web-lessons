@@ -18,7 +18,7 @@ header {
     flex-direction: row;
     justify-content: center;
     background-color: #32425C;
-    justify-content: space-around;
+    justify-content: space-between;
     width: auto;
     height:55px;
     margin: 0 -5px;

@@ -33,7 +33,7 @@ div{
 p{
     display: block;
     justify-content:flex-start;
-    width: auto;
+    width: 120px;
     height: auto;
     background-color: #47556D;
     font-family: Roboto, sans-serif;

@@ -1,7 +1,80 @@
+*{
+    color:rgb(177, 176, 176);
+    /**/
+}
+header{
+    display: flex;
+    width: auto;
+    height: fit-content;
+    background-image: url(https://oir.mobi/uploads/posts/2021-06/1623286757_14-oir_mobi-p-zadnii-fon-les-priroda-krasivo-foto-14.jpg);
+    background-attachment: fixed;
+    background-color: rgb(87, 85, 85);
+    flex-direction: column;justify-content:center; align-items:center;
+    /*https://oir.mobi/uploads/posts/2021-03/1616423565_9-p-krasivii-temnii-fon-10.jpg*/
+}
+.img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: 3px solid #012501;
+}
+h3{
+    margin-top: 0px;
+}
+hr {
+    border: none; 
+    background-color: rgb(87, 85, 85);
+    color: rgb(49, 41, 41); 
+    height: 2px;
+   }
+.for_me{
+    background:linear-gradient(#010503, #031f03);
+    
+    color:rgb(155, 155, 155);
+    padding: 2px;
+    
+}
+h1, h2{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    margin: 10px;
+}
+h3{
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+p{
+    margin:14px;
+}
 a{
-    color:#337ab7;
+    color:rgb(177, 176, 176);
     text-decoration: none
 }
 a:hover{
-    color:#be5000;
+    color:#ce6c41;
+}
+
+body{
+   
+    background-color:rgb(48, 48, 48);
+    margin-bottom: 0px;
+}
+main{
+    color:rgb(155, 155, 155);
+    background-color: rgb(124, 123, 123);
+    
+}
+ol{
+    margin: 5px;
+    border-radius: 5px;
+}
+footer{
+    border-radius:5px;
+    width: auto;
+    background:rgb(32, 31, 31);
+}
+address{
+    justify-self: center;
 }

@@ -6,15 +6,18 @@
 }
 article{
     padding: 10px;
-    display: block;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
     background-color: rgb(255, 255, 255);
     border: 1px solid #dddddd;
-    width: auto;
-    height: auto;
+    width: 412px;
+    height: 670px;
 }
 .container{
     display: flex;
     flex-direction:row;
+    flex-wrap: wrap;
     flex-grow: 1;
     justify-items: center;
     align-items:center;
@@ -34,7 +37,7 @@ p{
     background:rgb(255, 255, 255);
 }
 .discount{
-    display: flex;
+    display: block;
     background-color:#F84147;
     border-radius:15px;
     color:#FFF8FB;
@@ -87,12 +90,18 @@ a:hover{
     font-size: 10px;
     text-decoration: line-through;
 }
-p.value{
+p.value, p.black{
     margin: 0px;
     padding: 0px;
     font-size: 15px;
-    color:red;
+    
     height:20px;
+}
+.value{
+color:red;
+}
+.black{
+    color:black;
 }
 .cart{
     margin: 0px;
@@ -102,6 +111,8 @@ p.value{
     display: flex;
     flex-direction:row;
     justify-content:space-between;
+    align-items:flex-end;
+    margin-top: 10px;
 }
 .a_img:hover{
     padding: 1px;

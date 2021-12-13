@@ -9,7 +9,9 @@ header{
     background-image: url(https://oir.mobi/uploads/posts/2021-06/1623286757_14-oir_mobi-p-zadnii-fon-les-priroda-krasivo-foto-14.jpg);
     background-attachment: fixed;
     background-color: rgb(87, 85, 85);
-    flex-direction: column;justify-content:center; align-items:center;
+    flex-direction: column;
+    justify-content:center; 
+    align-items:center;
     /*https://oir.mobi/uploads/posts/2021-03/1616423565_9-p-krasivii-temnii-fon-10.jpg*/
 }
 .img{

@@ -1,9 +1,38 @@
 header, footer{
+    display: flex;
+    justify-content:left;
     background-color: #9ACD32;
     width: auto;
     height: 150px;
+    padding: 10px;
 }
 nav, aside{
+    display: flex;
+    flex-direction:column;
     background-color: #F5F5DC;
-    width: auto;
+    width: 200px;
+    padding: 15px;
 } /* */
+nav{
+    justify-content: flex-start;
+    align-items:flex-start;
+    height: 500px;
+}
+main{
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    width: 1200px;
+    height: 500px;
+    padding: 10px;
+}
+aside{
+    justify-content: flex-start;
+    align-items:flex-start;
+    height: 500px;
+}
+.row{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}

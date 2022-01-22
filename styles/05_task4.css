@@ -22,7 +22,7 @@ main{
     display: flex;
     justify-content:flex-start;
     align-items:flex-start;
-    width: 1200px;
+    width: 1400px;
     height: 500px;
     padding: 10px;
 }

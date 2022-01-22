@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="/styles/form.css">
+</head>
+<body>
+ 
+    <form action="#">
+        <h3>Анкета відвідувача ресторану</h3>
+        <fieldset>
+            <legend> Контакти </legend>
+            <ul>
+                <li>
+                    <label for="name"> Ім'я <input type="text" id="name"></label>
+                </li>
+                <li>
+                    <label for="telephone"> Телефон <input type="tel" id="telephone"></label>
+                </li>
+                <li>
+                    <label for="email"> Email <input type="email" id="email"></label>
+                </li>
+                <li>
+                    <label for="date"> Дата відвідування <input type="date" id="date"></label> 
+                </li>
+            </ul>
+              
+        </fieldset>
+        <fieldset>
+            <legend> Персональна інформація </legend>
+                <ul>
+                    <li>
+                        <label for="age"> Вік <input type="number" min="1" max="100" step="1"></label>
+                    </li>
+                    <li>
+                        <label for="kitchen"> Улюблена кухня 
+                            <select>
+                                <option>Італійська кухня</option>
+                                <option>Німецька кухня</option>
+                                <option>Французька кухня</option>
+                                <option>Російська кухня</option>
+                                <option>Українська кухня</option>
+                                <option>Японська кухня</option>
+                            </select>
+                        </label>
+                    </li>
+                    <li>
+                        <label for="dishes"> Які страви ви хотіли би бачити в нашому меню? <textarea name="dished" id="" cols="30" rows="5"></textarea></label>
+                    </li>
+                </ul>
+        </fieldset>
+       
+        <fieldset>
+            <legend> Оцінка ресторану </legend>
+                <label for="As you learned ">Як ви дізналися по наш ресторан?</label>
+                    <ul>
+                        <li class="li">
+                            <input type="radio" name="as learned" value="1">Поруч з будинком/роботою
+                        </li>
+                        <li  class="li">
+                            <input type="radio" name="as learned" value="2">Реклама
+                        </li>
+                        <li  class="li">
+                            <input type="radio" name="as learned" value="3">Порадили знайомі
+                        </li>
+                        <li  class="li">
+                            <input type="radio" name="as learned" value="4">Пошук в мережі інтернет
+                        </li>
+                        <li  class="li">
+                            <input type="radio" name="as learned" value="5">Інше
+                        </li>
+                    </ul>
+                
+                <label for="will you recommend">Чи будете ви рекомендувати наш ресторан знайомим?</label>
+                    <ul>
+                        <li  class="li">
+                            <input type="radio" name="yes/no" value="1" checked>Так
+                        </li>
+                        <li  class="li">
+                            <input type="radio" name="yes/no" value="2">Ні
+                        </li>
+                    </ul>
+        </fieldset>
+        <a href="#"><button name ="button" > Відправити</button></a>
+    </form>
+</body>
+</html>

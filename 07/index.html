@@ -13,29 +13,18 @@
         <h3>Анкета відвідувача ресторану</h3>
         <fieldset>
             <legend> Контакти </legend>
-            <ul>
-                <li>
-                    <label for="name"> Ім'я <input type="text" id="name"></label>
-                </li>
-                <li>
-                    <label for="telephone"> Телефон <input type="tel" id="telephone"></label>
-                </li>
-                <li>
-                    <label for="email"> Email <input type="email" id="email"></label>
-                </li>
-                <li>
-                    <label for="date"> Дата відвідування <input type="date" id="date"></label> 
-                </li>
-            </ul>
-              
+                    <label for="name"> Ім'я <input class="inp" type="text" id="name"></label>
+                    <label for="telephone"> Телефон <input class="inp" type="tel" id="telephone"></label>
+                    <label for="email"> Email <input class="inp" type="email" id="email" placeholder="email@gmail.com"></label>
+                    <label for="date"> Дата відвідування <input class="inp" type="date" id="date"></label> 
         </fieldset>
         <fieldset>
             <legend> Персональна інформація </legend>
-                <ul>
-                    <li>
-                        <label for="age"> Вік <input type="number" min="1" max="100" step="1"></label>
-                    </li>
-                    <li>
+                
+                    
+                        <label for="age"> Вік <input class="inp" type="number" min="1" max="100" step="1"></label>
+                    
+                    
                         <label for="kitchen"> Улюблена кухня 
                             <select>
                                 <option>Італійська кухня</option>
@@ -46,11 +35,11 @@
                                 <option>Японська кухня</option>
                             </select>
                         </label>
-                    </li>
-                    <li>
-                        <label for="dishes"> Які страви ви хотіли би бачити в нашому меню? <textarea name="dished" id="" cols="30" rows="5"></textarea></label>
-                    </li>
-                </ul>
+                    
+                    
+                        <label for="dishes"> Які страви ви хотіли би бачити в нашому меню? <textarea name="dished" id="" placeholder="Введіть бажані страви через кому" cols="30" rows="5"></textarea></label>
+                    
+                
         </fieldset>
        
         <fieldset>
@@ -58,29 +47,29 @@
                 <label for="As you learned ">Як ви дізналися по наш ресторан?</label>
                     <ul>
                         <li class="li">
-                            <input type="radio" name="as learned" value="1">Поруч з будинком/роботою
+                            <input type="radio" name="as learned" value="1" style="vertical-align:bottom;margin:1;" >Поруч з будинком/роботою
                         </li>
                         <li  class="li">
-                            <input type="radio" name="as learned" value="2">Реклама
+                            <input type="radio" name="as learned" value="2" style="vertical-align:bottom;margin:1;" >Реклама
                         </li>
                         <li  class="li">
-                            <input type="radio" name="as learned" value="3">Порадили знайомі
+                            <input type="radio" name="as learned" value="3" style="vertical-align:bottom;margin:1;" >Порадили знайомі
                         </li>
                         <li  class="li">
-                            <input type="radio" name="as learned" value="4">Пошук в мережі інтернет
+                            <input type="radio" name="as learned" value="4" style="vertical-align:bottom;margin:1;" >Пошук в мережі інтернет
                         </li>
                         <li  class="li">
-                            <input type="radio" name="as learned" value="5">Інше
+                            <input type="radio" name="as learned" value="5" style="vertical-align:bottom;margin:1;" >Інше
                         </li>
                     </ul>
                 
                 <label for="will you recommend">Чи будете ви рекомендувати наш ресторан знайомим?</label>
                     <ul>
                         <li  class="li">
-                            <input type="radio" name="yes/no" value="1" checked>Так
+                            <input type="radio" name="yes/no" value="1" style="vertical-align:bottom;margin:1;" checked>Так
                         </li>
                         <li  class="li">
-                            <input type="radio" name="yes/no" value="2">Ні
+                            <input type="radio" name="yes/no" value="2" style="vertical-align:bottom;margin:1;" >Ні
                         </li>
                     </ul>
         </fieldset>

@@ -3,6 +3,7 @@
     height: auto;
 }
 h3{
+    margin-left: 10px;
     color: #96625A;
 }
 fieldset{
@@ -18,31 +19,38 @@ fieldset{
 legend{
     color:#4FCDCE;
     font-variant: small-caps;
+    margin-left: 10px;
 }
 label{
+    display: inline-flex;
     color:#89716E;
     margin: 5px;
+   justify-content: space-between;
 }
-input{
-    margin: 5px;
+.inp, select, textarea{
+    text-align: start;
+    margin: 3px;
+    margin-right: 90px;
+    padding: 3px;
+    width: 300px;
+    height: auto;
+}
+select{
+    width: 309px;
 }
 ul {
-    list-style-position:inside;
-   
     padding: 0;
     margin: 0;
   }
 li{
     list-style: none;
     padding: 5px;
+    width: fit-content;
+    height: fit-content;
 }
 .li{
-    flex-direction: row;
-    font-size: 12px;
+    font-size: 12px; 
 }
-select, textarea{
-    margin:7px;
-  }
 button{
     padding: 5px;
     margin: 5px;
@@ -59,5 +67,6 @@ button:hover{
 a{
     text-decoration: none;    
 }
+
   
   

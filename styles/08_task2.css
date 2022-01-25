@@ -16,13 +16,11 @@ button{
     width: 287px;
     height: 68px;
     border-style:none;
-    
     font-size: 24px;
 }
 .seam_foam{
     background-color:#19B087;
     color:#DCF4F0;
-    
 }
 .email, .password{
     width: 598px;
@@ -48,6 +46,8 @@ input{
     font-size: 20px;
     background-color: #24313B;
     outline:none;
+    border-style:none;
+    border-style:groove;
     width: 277px;
     height: 56px;
     margin: 10px;
@@ -69,9 +69,8 @@ h2{
     text-align: center;
 }
 div{
-text-align: center;border-color:1px solid #758687;
+text-align: center;
 margin-top: 40px;
 height: 600px;
 }
-input:focus + placeholder{
-	display: none}
+

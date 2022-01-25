@@ -1,5 +1,5 @@
 *{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 fieldset{
     display: flex;
@@ -16,13 +16,23 @@ button{
     width: 287px;
     height: 68px;
     border-style:none;
-    margin-right: 0px;
+    
     font-size: 24px;
 }
 .seam_foam{
     background-color:#19B087;
     color:#DCF4F0;
     
+}
+.email, .password{
+    width: 598px;
+}
+.seam_foam_upp{
+    background-color:#19B087;
+    color:#DCF4F0;
+    width: 611px;
+    margin: 5px;
+    text-transform: uppercase;
 }
 .grey{
     background-color: #435158;
@@ -37,13 +47,20 @@ label{
 input{
     font-size: 20px;
     background-color: #24313B;
-    border-color:#758687;
+    outline:none;
     width: 277px;
     height: 56px;
     margin: 10px;
     margin-left: 15px;
     padding: 5px;
 }
+.placeholder {
+    position:absolute;
+    left:5px;
+    top:50%;
+    transform:translateY(-50%);
+    pointer-events:none;
+  }
 h2{
     padding: 5px;
     color:#DCF4F0 ;
@@ -52,7 +69,9 @@ h2{
     text-align: center;
 }
 div{
-text-align: center;
+text-align: center;border-color:1px solid #758687;
 margin-top: 40px;
 height: 600px;
 }
+input:focus + placeholder{
+	display: none}

@@ -1,0 +1,58 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: #24313B;
+    border-style:none;
+    width: 648px;
+    height: 648px;
+}
+button{
+    width: 287px;
+    height: 68px;
+    border-style:none;
+    margin-right: 0px;
+    font-size: 24px;
+}
+.seam_foam{
+    background-color:#19B087;
+    color:#DCF4F0;
+    
+}
+.grey{
+    background-color: #435158;
+    color: #79959B;
+}
+label{  
+    margin-top: 40px;
+    width: fit-content;
+    height: fit-content; 
+    text-align: center;
+}
+input{
+    font-size: 20px;
+    background-color: #24313B;
+    border-color:#758687;
+    width: 277px;
+    height: 56px;
+    margin: 10px;
+    margin-left: 15px;
+    padding: 5px;
+}
+h2{
+    padding: 5px;
+    color:#DCF4F0 ;
+    font-size: 40px;
+    font-weight:normal;
+    text-align: center;
+}
+div{
+text-align: center;
+margin-top: 40px;
+height: 600px;
+}

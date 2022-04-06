@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Виведення тексту в документ</title>
+</head>
+<body>
+<ul>
+    <li>
+        <script>
+            document.write(" Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>");
+        </script>
+    </li>
+    <li>
+        <script>
+            document.write("<i> Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br></i>");
+        </script>
+    </li>
+    <li>
+        <script>
+            let str = 'text';
+            document.write("<i>"+ str +"</i>")
+        </script>
+    </li>
+    <li>
+        <script>
+            for (let numb = 1; numb < 6; numb++) {
+                document.write( numb+'<br>');
+            }
+        </script>
+    </li>
+</ul>
+</body>
+</html>

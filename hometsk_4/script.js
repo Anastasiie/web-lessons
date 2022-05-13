@@ -3,6 +3,7 @@ function task1(){
     console.log(words);
     console.log(`Кількість слів: `+ words.split(" ").length);
 }
+
 function task2(){
     let numbers = [];
         let odd = [];
@@ -26,8 +27,19 @@ function task2(){
         console.log("Парні: "+even+", ");
         console.log("Непарні: "+odd+", ");
 }
+
 function task3(){
-    let email = [];
-    email = prompt("Введіть свою електронну пошту (gmail.com/i.ua/ukr.net/outlook.com): ");
-    "така електронна адреса вже зареєстрована!"
+    let email = ["nina@i.ua", "efiop_petrovich@gmail.com", "Mariia@ukr.net"];
+    let mail=0;
+    do {
+        mail = prompt("Введіть свою електронну пошту (gmail.com/i.ua/ukr.net/outlook.com): "); // Заповнюємо масив
+       if(email.includes(mail)) { //mail===email (-)
+           console.log("така електронна адреса вже зареєстрована!"); 
+           break;
+       } 
+       else {
+          email.push(mail);
+        }
+    } while (mail!= null)// якщо натискаємо "Отмена" 
+   console.log("Електронні пошти: "+email.join(", ")); // , ;
 }

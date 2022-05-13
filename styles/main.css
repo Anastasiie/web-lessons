@@ -32,7 +32,7 @@ hr {
    }
 .for_me{
     background:linear-gradient(#010503, #031f03);
-    
+    border-radius: 5px;
     color:rgb(155, 155, 155);
     padding: 2px;
     
@@ -56,8 +56,49 @@ a{
     color:rgb(177, 176, 176);
     text-decoration: none
 }
+
+a:visited{
+    color:#2f4030;
+    border: 1px solid linear-gradient(90deg, #E3535D, #2AA5A0);
+    border-radius: 5px;
+}
 a:hover{
-    color:#ce6c41;
+    color:#c5c4c4;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #5bb83e, 0 0 0.5em #5bb83e, 0 0 0.1em #5bb83e; 
+    animation: neon-4 linear infinite 2s;
+}
+
+@keyframes neon-4 {
+    78% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    79%{
+        color: #0b3960;
+    }
+    80% {
+        text-shadow: none;
+    }
+    81% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    82% {
+        color: #0b3960;
+        text-shadow: none;
+    }
+    83% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    92% {
+        color: #0b3960;
+        text-shadow: none;
+    }
+    92.5% {
+        color: inherit;
+        text-shadow: inherit;
+    }
 }
 
 body{
@@ -68,7 +109,7 @@ body{
 main{
     color:rgb(155, 155, 155);
     background-color: rgb(124, 123, 123);
-    
+    border-radius: 5px;
 }
 ol{
     margin: 5px;

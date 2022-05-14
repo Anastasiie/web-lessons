@@ -11,19 +11,38 @@
 <body>
     <table>
         <tr>
-            <th>№</th>
+            <th>№</th> <!--рядок -->
             <th>День тижня</th>
             <th>Температура повітря</th>
         </tr>
+
         <tr>
             <td>
-                1
+                <script>daysOfTheWeek();</script>
             </td>
             <td>данні</td>
-            <td>данні</td>
+            <td>
+                <script>
+                airTemperature();
+                </script>
+            </td>
         </tr>
+
         <tr>
-            <td colspan="5" style="text-align:right">Itogo: </td>
+            <td>
+                <script>daysOfTheWeek();</script>
+            </td>
+            <td>данні</td>
+            <td>
+                <script>
+                airTemperature();
+                </script>
+
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="5" style="text-align:left">Найхолодніший день: </td>
         </tr>
     </table>
 </body>

@@ -8,40 +8,16 @@
     <link rel="stylesheet" href="/styles/011_lab7.css">
     <script src="../11/script.js"></script>
 </head>
-<body>
+<body id="body">
     <table>
         <tr>
             <th>№</th> <!--рядок -->
             <th>День тижня</th>
             <th>Температура повітря</th>
         </tr>
-
-        <tr>
-            <td>
-                <script>daysOfTheWeek();</script>
-            </td>
-            <td>данні</td>
-            <td>
-                <script>
-                airTemperature();
-                </script>
-            </td>
-        </tr>
-
-        <tr>
-            <td>
-                <script>daysOfTheWeek();</script>
-            </td>
-            <td>данні</td>
-            <td>
-                <script>
-                airTemperature();
-                </script>
-
-            </td>
-        </tr>
-
-        <tr>
+            <script>createTable();</script>
+        
+            <tr>
             <td colspan="5" style="text-align:left">Найхолодніший день: </td>
         </tr>
     </table>

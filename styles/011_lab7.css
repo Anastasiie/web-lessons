@@ -5,19 +5,19 @@
 table{
     border: 3px solid #dfdfdf; /*граница всей таблицы*/
     border-collapse: collapse;
-    width: 55%;
 }
 th, td{
     border: 1px solid #dfdfdf;/*граница заголовков таблицы*//*граница внутренностей таблицы*/
+    
 }
 th{
-    background-color:#efefef;
-    /*text-align:center;*/
-   padding: 10px;
+    background-color:#efefef;/*text-align:center;*/
+    padding: 10px;   
 }
 td{
     padding: 2px;
+ 
 }
 tr:hover td{
     background-color:#f7f5f5;
-}
+}   

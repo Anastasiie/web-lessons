@@ -1,30 +1,20 @@
 alert("Створити фабричну функцію, яка повертає об’єкт з заданими полями: Назва дня тижня, температура повітря. Вивести під таблицею  назву найхолоднішого дня.");
 
 let days= parseInt(prompt("Введіть кількість днів: "));
-let tempd=[];
-let tw=[], temperature=[], week=[];
-let day=0, numb=0;
-let t=0;
-
+let tw=[], numb =0,temday=0, min=0, counter=0;
 for (let i = 0; i < days; i++) {
     let temperatureAndDays = prompt("Введіть день тижня та температуру повітря (через пропуск): ");  
-    temperatureAndDays.split(' ');
-    tempd.push(temperatureAndDays); //пн 2,ср 3
-}
-//console.log("tempd "+tempd);
-for (let i = 0; i < days; i++) {
-    day=tempd[i].split(' ').slice(0, -1); 
-    t=tempd[i].split(' ').slice(-1); 
+    temday = temperatureAndDays.split(' ');
+    let day= temday[0];
+    let t=temday[1];
     numb++;
     tw.push(numb);
     tw.push(day);   //Пн
-    week.push(day);
-    tw.push(parseInt(t));   //2
-    temperature.push(parseInt(t));
+    tw.push(parseInt(t));   //2 
+    //пн -12, вт -7
+    console.log(temday);
 }
-
-let obj = Object.assign({}, tw);
-//console.log(obj)
+//console.log(tw);//1,пн,-12,2,вт,-7
 
 function createTable() {
     let table = document.createElement('table');
@@ -53,13 +43,23 @@ function createTable() {
     }   
     let row_2 = document.createElement('tr');
     thead.appendChild(row_2);
-} /**/
+} 
 
-function min(temperature){
-    let mini= +(Math.min(...temperature));
-    console.log("minT: "+mini);
+function mini(temperdays){
+//min = temperdays[1];
+for (let i = 2  ; i < temperdays.length; i=i+3) 
+{
+    if (temperdays[i] < min) 
+    {
+        min = temperdays[i];
+    }/**/
 }
-min(week, temperature);
-week = week.pop(); 
-document.write("<p>"+ "Найхолодніший день: "+week+"</p>");
+    //console.log("minT: "+min);
+    counter= tw.indexOf(min);
+    //console.log(counter);
+}
+
+mini(tw);
+let week = tw[counter-1]; 
+document.write('<p class = "end">'+ "Найхолодніший день: "+week+"</p>");
 /**/
